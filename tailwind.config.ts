@@ -25,7 +25,8 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: '#9333ea',
+
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -45,7 +46,7 @@ const config = {
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
+          DEFAULT: "#7e22ce",
           foreground: "hsl(var(--popover-foreground))",
         },
         card: {

@@ -40,15 +40,15 @@ export default function Navbar() {
           </Menu>
 
           <div className="flex items-center space-x-4">
-            <Link href="/login" className="text-gray-600 hover:text-gray-900">
+            <Link href="/api/auth/signin" className="text-gray-600 hover:text-gray-900">
               Log in
             </Link>
-            <Link href="/signup" className="text-gray-600 hover:text-gray-900">
+            <Link href="/api/auth/signin" className="text-gray-600 hover:text-gray-900">
               Sign up
             </Link>
             <Link
               href="/post-job"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md"
+              className="bg-primary hover:bg-popover text-white px-4 py-2 rounded-md"
             >
               Post a job
             </Link>
